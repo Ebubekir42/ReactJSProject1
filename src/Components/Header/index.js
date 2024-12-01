@@ -40,7 +40,11 @@ const Header = () => {
                                 
                                 <SearchBox/>
                                 <div className="part3 d-flex align-items-center ml-auto">
-                                    <Button className="circle mr-3"><FiUser/></Button>
+                                    {
+                                        context.isLogin !== true ? <Link to="/signIn"><Button className="btn-blue  btn-round mr-3 text-nowrap">Giriş Yap</Button></Link> : <Button className="circle mr-3"><FiUser/></Button>
+                                    }
+                                    
+                                    
                                     <div className="ml-auto cartTab d-flex align-items-center">
                                         <span className="price">3.29 TL</span>
                                         <div className="position-relative ml-2">

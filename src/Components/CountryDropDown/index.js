@@ -71,7 +71,7 @@ const CountryDropDown = () => {
                     {
 
                         countryList?.length !== 0 && countryList?.map((item, index) => {
-                            return (<li key={index}><Button onClick={() => selectCountry(index, item.country)} className={' ${selectedTab === index ? "active" : ""}'}>{item.country}</Button></li>)
+                            return (<li key={index}><Button onClick={() => selectCountry(index, item.country)} className={` ${selectedTab === index ? "active" : ""}`}>{item.country}</Button></li>)
                         })
                     }
 

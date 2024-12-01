@@ -11757,7 +11757,7 @@ a:hover {
 }
 
 .signInPage {
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     position: relative;
     width: 100%
@@ -11847,11 +11847,11 @@ a:hover {
 
 .loginWithGoogle img {
     margin-right: 10px;
-    width: 30px
+    width: 30px;
 }
 
 .signUpPage .box {
-    width: 500px
+    width: 500px;
 }
 
 .filterTabs .item {
