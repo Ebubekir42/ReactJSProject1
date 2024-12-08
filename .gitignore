@@ -1,0 +1,50 @@
+# Node.js bağımlılıkları
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yapı dosyaları
+build/
+dist/
+
+# Çevre değişkeni dosyaları
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE ve Editör Dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Log dosyaları
+logs/
+*.log
+
+# Geçici dosyalar
+tmp/
+temp/
+
+# Çalıştırma dosyaları
+*.pid
+*.seed
+
+# Çalışma dosyaları
+.DS_Store
+Thumbs.db
+
+
+
+# Test çıktı dosyaları
+coverage/
+
+# React dosyaları
+*.cache
+*.next
+
+# Çeşitli
+*.lock
